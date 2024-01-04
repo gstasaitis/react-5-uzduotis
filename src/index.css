@@ -1,0 +1,73 @@
+*{ 
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 100vh;
+  background: url('https://images.unsplash.com/photo-1532275948649-7d97f309ef16?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80');
+  background-size:cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div .container {
+  padding: 25px;
+  width: 500px;
+  height: auto;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div .container img{
+  height: 150px;
+  border-radius: 150px;
+}
+
+div .container h1{
+  padding-top: 20px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: lighter;
+}
+
+div .container h3{
+  padding: 20px;
+  font-size: 0.98em;
+  color: rgba(255, 255, 255, 0.65);
+  font-weight: lighter;
+}
+
+div .container p{
+  text-align: justify;
+  font-size: 12.5px;
+  color: rgba(255, 255, 255, 0.65);
+  font-weight: lighter;
+  padding-bottom: 10px;
+}
+
+div .links{
+  color: rgba(255, 255, 255, 0.95);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.fa-brands {
+  font-size: 2.5em;
+  transition: .3s;
+}
+
+.fa-brands:hover {
+  cursor: cell;
+  color: rgba(250, 235, 215, 0.474);
+}
